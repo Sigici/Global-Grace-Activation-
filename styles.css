@@ -1073,6 +1073,8 @@ footer ul a:hover{ color:var(--flame-dim); }
   .hero p.lede{ font-size: 15.5px; margin-top: 16px; max-width: 100%; }
   .hero-cta-row{ margin-top: 28px; gap: 12px; }
   .hero-cta-row .btn{ flex: 1 1 42%; min-width: 130px; padding: 14px 18px; font-size: 13.5px; }
+  .hero-cta-row .js-register-btn{ display: none; }
+  .hero-cta-row .btn-outline{ flex: 1 1 100%; }
   .hero-panel{ padding: 22px 18px; margin-top: 8px; }
   .hero-panel h3{ font-size: 17px; margin-bottom: 14px; }
   .countdown{ gap: 8px; margin-bottom: 16px; }
