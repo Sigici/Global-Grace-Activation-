@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop | Global Grace Activation</title>
+<meta name="description" content="Shop official Global Grace Activation books, apparel and church resources — including titles by our Pastor.">
+<meta property="og:title" content="Shop | Global Grace Activation">
+<meta property="og:description" content="Shop official Global Grace Activation books, apparel and church resources — including titles by our Pastor.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect width=48 height=48 rx=10 fill=%22%23071812%22/><path d=%22M24 8C24 8 16 16 16 24.5C16 30 19.5 33.5 24 33.5C28.5 33.5 32 30 32 24.5C32 21.8 30.9 19.5 29.4 17.8C29.7 19.6 29 21 27.7 21.9C28 19.9 27.2 18.1 25.3 16C25.6 17.8 24.9 19 23.7 20C22.6 20.9 21.8 22.1 21.8 23.8C21.8 25.7 23 27 24 27C25.7 27 26.8 25.7 26.8 24.2%22 stroke=%22%23b5d334%22 stroke-width=2.6 stroke-linecap=round stroke-linejoin=round fill=none/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .product-card{ position:relative; }
+  .product-card .thumb{ aspect-ratio:1/1; background:linear-gradient(155deg,#ecfdf5,#f0fdf4); position:relative; }
+  .product-card .thumb .stock-badge{
+    position:absolute; top:12px; left:12px; z-index:1;
+    background:rgba(6,78,59,.85); color:#fff; font-family:'Space Mono',monospace;
+    font-size:10px; letter-spacing:.06em; text-transform:uppercase; font-weight:700;
+    padding:5px 10px; border-radius:999px;
+  }
+  .product-card .thumb .stock-badge.low{ background:var(--flame); }
+  .product-card .body{ padding:20px 20px 22px; }
+  .product-card .p-cat{ font-family:'Space Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--flame-dim); font-weight:700; }
+  .product-card h4{ font-size:17px; margin:8px 0 4px; }
+  .product-card .p-meta{ color:var(--mist); font-size:13px; margin-bottom:14px; }
+  .product-card .p-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .product-card .p-price{ font-family:'Space Mono',monospace; font-weight:700; color:var(--ink); font-size:16px; }
+  .product-card .p-price small{ color:var(--mist); font-weight:400; font-size:12px; text-decoration:line-through; margin-right:6px; }
+  .product-card .btn-add{
+    background:var(--flame); color:#fff; border:none; padding:9px 16px; border-radius:10px;
+    font-weight:700; font-size:13px; cursor:pointer; transition:.25s; white-space:nowrap;
+  }
+  .product-card .btn-add:hover{ background:var(--flame-dim); }
+  .size-row{ display:flex; gap:6px; margin-bottom:14px; }
+  .size-row span{
+    font-family:'Space Mono',monospace; font-size:11px; border:1px solid var(--line); border-radius:6px;
+    padding:4px 8px; color:var(--mist);
+  }
+  .cart-fab{
+    position:fixed; right:26px; bottom:96px; z-index:60;
+    width:56px; height:56px; border-radius:50%;
+    background:var(--ink); color:#fff; border:1px solid rgba(255,255,255,.1);
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 10px 26px rgba(0,0,0,.28);
+    transition:transform .25s var(--ease), box-shadow .25s var(--ease);
+  }
+  .cart-fab:hover{ transform:translateY(-3px); box-shadow:0 14px 30px rgba(0,0,0,.34); }
+  .cart-fab .count{
+    position:absolute; top:-5px; right:-5px;
+    background:var(--flame); color:#fff; border-radius:999px; min-width:20px; height:20px;
+    display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700;
+    padding:0 5px; border:2px solid var(--white,#fff);
+  }
+  @media(max-width:640px){ .cart-fab{ bottom:86px; right:16px; width:50px; height:50px; } }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="nav-brand">
+      <!-- SWAP LOGO: Replace images/logo.png with your own logo file -->
+<span class="flame-mark"><img src="images/logo.png" alt="Your Logo" style="width:100%;height:100%;object-fit:contain;display:block;"></span>
+      
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="speakers.html">Speakers</a>
+      <a href="watch-live.html">Watch Live</a>
+      <a href="give.html">Give</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="watch-live.html" class="btn btn-outline btn-sm">Watch Live</a>
+      <a href="events.html" class="btn btn-primary btn-sm js-register-btn">Register Now</a>
+    </div>
+    <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="crumb">Home &rsaquo; <span>Shop</span></span>
+    <span class="eyebrow on-dark">GGA Store</span>
+    <h1 style="margin-top:18px;">Books, apparel &amp; resources.</h1>
+    <p>Official books by our Pastor, conference apparel and church resources &mdash; every purchase helps fund the mission.</p>
+  </div>
+</header>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="tab-bar reveal" data-tabs="#shop-grid">
+      <button class="tab-btn active" data-filter="all">All</button>
+      <button class="tab-btn" data-filter="books">Books</button>
+      <button class="tab-btn" data-filter="apparel">T-Shirts &amp; Apparel</button>
+      <button class="tab-btn" data-filter="church-items">Church Items</button>
+    </div>
+
+    <div class="grid-3 reveal-stagger" id="shop-grid">
+
+      <!-- BOOKS -->
+      <div class="card product-card" data-cat="books" data-caption="Grace, Not Performance — by the Pastor">
+        <div class="thumb"><span class="stock-badge">Bestseller</span>
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/worship-stage.jpg" alt="Grace, Not Performance book cover" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Book &middot; By the Pastor</span>
+          <h4>Grace, Not Performance</h4>
+          <p class="p-meta">Paperback &middot; 212 pages &middot; Signed copies available</p>
+          <div class="p-row">
+            <span class="p-price">&#8358;6,500</span>
+            <button class="btn-add" data-name="Grace, Not Performance" data-price="6500">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="books" data-caption="Activating Your God-Given Destiny — by the Pastor">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/pastor-podium.jpg" alt="Activating Your God-Given Destiny book cover" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Book &middot; By the Pastor</span>
+          <h4>Activating Your God-Given Destiny</h4>
+          <p class="p-meta">Paperback &middot; 184 pages</p>
+          <div class="p-row">
+            <span class="p-price">&#8358;5,800</span>
+            <button class="btn-add" data-name="Activating Your God-Given Destiny" data-price="5800">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="books" data-caption="Atmosphere of Worship — Devotional Journal">
+        <div class="thumb"><span class="stock-badge low">Low Stock</span>
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/prayer-hands.jpg" alt="Atmosphere of Worship devotional journal" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Book &middot; Devotional</span>
+          <h4>Atmosphere of Worship &mdash; 90-Day Journal</h4>
+          <p class="p-meta">Guided devotional &amp; prayer journal</p>
+          <div class="p-row">
+            <span class="p-price">&#8358;4,200</span>
+            <button class="btn-add" data-name="Atmosphere of Worship Journal" data-price="4200">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="books" data-caption="Walking in Grace — Sermon Notes Compilation">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/worship-team.jpg" alt="Walking in Grace sermon notes" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Book &middot; By the Pastor</span>
+          <h4>Walking in Grace &mdash; Sermon Notes Vol. 1</h4>
+          <p class="p-meta">Paperback &middot; 150 pages</p>
+          <div class="p-row">
+            <span class="p-price"><small>&#8358;5,000</small>&#8358;3,900</span>
+            <button class="btn-add" data-name="Walking in Grace Vol. 1" data-price="3900">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- APPAREL -->
+      <div class="card product-card" data-cat="apparel" data-caption="GGA Global Conference 2026 Tee">
+        <div class="thumb"><span class="stock-badge">New</span>
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/worship-crowd-1.jpg" alt="GGA 2026 conference t-shirt" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Apparel</span>
+          <h4>GGA Global Conference 2026 Tee</h4>
+          <div class="size-row"><span>S</span><span>M</span><span>L</span><span>XL</span><span>XXL</span></div>
+          <div class="p-row">
+            <span class="p-price">&#8358;9,000</span>
+            <button class="btn-add" data-name="GGA 2026 Conference Tee" data-price="9000">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="apparel" data-caption="Nations Flag Procession Tee">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/worship-crowd-2.jpg" alt="Nations Flag tee" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Apparel</span>
+          <h4>Nations Flag Procession Tee</h4>
+          <div class="size-row"><span>S</span><span>M</span><span>L</span><span>XL</span></div>
+          <div class="p-row">
+            <span class="p-price">&#8358;8,500</span>
+            <button class="btn-add" data-name="Nations Flag Tee" data-price="8500">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="apparel" data-caption="Grace, Not Performance Hoodie">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/conference-arena.jpg" alt="Grace, Not Performance hoodie" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Apparel</span>
+          <h4>Grace, Not Performance Hoodie</h4>
+          <div class="size-row"><span>M</span><span>L</span><span>XL</span><span>XXL</span></div>
+          <div class="p-row">
+            <span class="p-price">&#8358;16,500</span>
+            <button class="btn-add" data-name="Grace, Not Performance Hoodie" data-price="16500">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="apparel" data-caption="GGA Classic Cap">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/worship-stage.jpg" alt="GGA classic cap" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Apparel</span>
+          <h4>GGA Classic Cap</h4>
+          <p class="p-meta">One size &middot; Adjustable strap</p>
+          <div class="p-row">
+            <span class="p-price">&#8358;5,500</span>
+            <button class="btn-add" data-name="GGA Classic Cap" data-price="5500">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHURCH ITEMS -->
+      <div class="card product-card" data-cat="church-items" data-caption="GGA Ceramic Mug">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/prayer-gathering.jpg" alt="GGA ceramic mug" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Church Item</span>
+          <h4>GGA Ceramic Mug</h4>
+          <p class="p-meta">350ml &middot; Dishwasher safe</p>
+          <div class="p-row">
+            <span class="p-price">&#8358;3,000</span>
+            <button class="btn-add" data-name="GGA Ceramic Mug" data-price="3000">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="church-items" data-caption="Prayer &amp; Faith Wristband Set">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/hero-bg.jpg" alt="Prayer wristband set" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Church Item</span>
+          <h4>Prayer &amp; Faith Wristband Set (3-Pack)</h4>
+          <div class="p-row">
+            <span class="p-price">&#8358;1,800</span>
+            <button class="btn-add" data-name="Wristband Set" data-price="1800">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="church-items" data-caption="GGA Canvas Tote Bag">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/speaker-avatar.jpg" alt="GGA canvas tote bag" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Church Item</span>
+          <h4>GGA Canvas Tote Bag</h4>
+          <p class="p-meta">Durable cotton canvas &middot; Bible-sized</p>
+          <div class="p-row">
+            <span class="p-price">&#8358;4,500</span>
+            <button class="btn-add" data-name="GGA Canvas Tote Bag" data-price="4500">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card product-card" data-cat="church-items" data-caption="Anointing Oil &amp; Prayer Cloth Set">
+        <div class="thumb">
+          <!-- SWAP IMAGE: Replace with your own product photo -->
+          <img src="images/venue-interior.jpg" alt="Anointing oil and prayer cloth set" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="body">
+          <span class="p-cat">Church Item</span>
+          <h4>Anointing Oil &amp; Prayer Cloth Set</h4>
+          <div class="p-row">
+            <span class="p-price">&#8358;3,500</span>
+            <button class="btn-add" data-name="Anointing Oil Set" data-price="3500">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top:44px;">
+      <button class="btn btn-outline-dark">Load More Products</button>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad-sm" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="grid-4 reveal-stagger" style="text-align:center;">
+      <div class="card" style="padding:26px;"><strong>Worldwide shipping</strong><p style="color:var(--mist); font-size:13.5px; margin-top:8px;">We ship books and merchandise internationally.</p></div>
+      <div class="card" style="padding:26px;"><strong>Secure checkout</strong><p style="color:var(--mist); font-size:13.5px; margin-top:8px;">Payments processed via Paystack &amp; Flutterwave.</p></div>
+      <div class="card" style="padding:26px;"><strong>Signed copies</strong><p style="color:var(--mist); font-size:13.5px; margin-top:8px;">Selected books available signed by the Pastor, while supplies last.</p></div>
+      <div class="card" style="padding:26px;"><strong>Proceeds fund the mission</strong><p style="color:var(--mist); font-size:13.5px; margin-top:8px;">A portion of every sale supports GGA missions and outreach.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="panel-dark reveal" style="text-align:center;">
+      <span class="eyebrow" style="justify-content:center;">Checkout</span>
+      <h2 style="margin-top:16px; font-size:1.8rem;">Ready to order?</h2>
+      <p style="color:var(--text); max-width:480px; margin:16px auto 26px;">Review your cart and complete your order securely &mdash; you'll receive an email confirmation with tracking details.</p>
+      <button class="btn btn-primary" data-shop-checkout>Proceed to Secure Checkout</button>
+      <div class="gateways" style="justify-content:center;">
+        <span style="font-size:12.5px; color:var(--mist);">We accept</span>
+        <span class="gateway-badge">Paystack</span>
+        <span class="gateway-badge">Flutterwave</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<button class="cart-fab" id="cart-fab" type="button" aria-label="View cart">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2.5 3h2l2.4 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+  <span class="count" id="cart-count">0</span>
+</button>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-brand" style="margin-bottom:6px;">
+          <!-- SWAP LOGO: Replace images/logo.png with your own logo file -->
+<span class="flame-mark" style="width:34px;height:34px;"><img src="images/logo.png" alt="Your Logo" style="width:100%;height:100%;object-fit:contain;display:block;"></span>
+          
+        </a>
+        <p>A worldwide movement raised to ignite revival, release destiny, and transform lives through the power of God &mdash; gathering nations for one nightly encounter every year.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3V9z" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 8h2V4h-2a4 4 0 0 0-4 4v2H9v4h2v6h4v-6h2.5l.5-4H15V8z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M13 3c.4 2.6 2.2 4.6 5 5"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about.html">About GGA</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="watch-live.html">Watch Live</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="testimonies.html">Testimonies</a></li>
+          <li><a href="prayer.html">Prayer Request</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@globalgraceactivation.com">hello@globalgraceactivation.com</a></li>
+          <li><a href="tel:+2348001234567">+234 800 123 4567</a></li>
+          <li><a href="contact.html">Solution Arena, Lagos, Nigeria</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Global Grace Activation. All rights reserved.</span>
+      <div>
+        <a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/2348001234567" class="wa-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.7.44 3.35 1.29 4.8L2 22l5.44-1.38a9.9 9.9 0 0 0 4.6 1.13h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-7C17.17 3.02 14.69 2 12.04 2zm5.8 14.16c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.2 0 .4 0 .57.01.18.01.43-.07.68.52.24.6.83 2.06.9 2.21.07.15.12.33.02.53-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.03 1.12 1 2.07 1.31 2.36 1.46.3.15.47.13.64-.08.18-.2.75-.88.95-1.18.2-.3.4-.25.66-.15.27.1 1.71.81 2 .96.3.15.49.22.56.35.08.13.08.75-.16 1.44z"/></svg>
+</a>
+
+
+<div class="modal-overlay" id="register-modal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="register-modal-title">
+    <button class="modal-close" id="register-modal-close" type="button" aria-label="Close">&times;</button>
+    <span class="eyebrow">Secure your seat</span>
+    <h3 id="register-modal-title">Register for GGA Global Conference 2026</h3>
+    <form data-fake-submit data-success="You&#8217;re registered &mdash; check your email for your ticket!">
+      <div class="field-row">
+        <div class="field"><label>Full Name</label><input type="text" required placeholder="Your name"></div>
+        <div class="field"><label>Phone Number</label><input type="tel" required placeholder="+234&hellip;"></div>
+      </div>
+      <div class="field"><label>Email Address</label><input type="email" required placeholder="you@email.com"></div>
+      <div class="field-row">
+        <div class="field"><label>Country</label><input type="text" required placeholder="e.g. Nigeria"></div>
+        <div class="field"><label>Guests Attending</label>
+          <select><option>Just me</option><option>2 people</option><option>3 people</option><option>4+ people</option></select>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-block" type="submit">Complete Registration</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+(function(){
+  var count = 0;
+  var countEl = document.getElementById('cart-count');
+  document.querySelectorAll('.btn-add').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      count++;
+      if(countEl) countEl.textContent = count;
+      var name = btn.getAttribute('data-name') || 'Item';
+      if(window.gcToast) window.gcToast(name + ' added to cart');
+    });
+  });
+  var checkoutBtn = document.querySelector('[data-shop-checkout]');
+  if(checkoutBtn){
+    checkoutBtn.addEventListener('click', function(){
+      if(count === 0){
+        if(window.gcToast) window.gcToast('Your cart is empty — add an item first');
+        return;
+      }
+      if(window.gcToast) window.gcToast('Redirecting to secure checkout…');
+    });
+  }
+})();
+</script>
+</body>
+</html>
